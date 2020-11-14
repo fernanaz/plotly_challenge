@@ -47,8 +47,7 @@ function Metadata(sample){
             console.log(otuIds);
             console.log(otuLabels);
             console.log(wfreq);
-        }
-    }
+
 //bar chart
 let trace1 = {
     x: filteredValues, 
@@ -62,11 +61,11 @@ let trace1 = {
 let traces = [trace1];
 
 let layout = {
-    title: "Top 10 Microbial Species"
+    title: "Top 10 Microbe Speccies"
 };
 
 Plotly.newPlot("bar", traces, layout);
-// bubble chart
+//bubble chart
 let trace2 = {
     x: otuIds,
     y: sampleValues,
