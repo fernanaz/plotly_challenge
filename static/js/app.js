@@ -27,7 +27,7 @@ function Metadata(sample){
     }
 
     function buildCharts(idx) { 
-        d3.json("samples.json").then(function (data) {
+        d3.json("samples.json").then((data) => {
                 var samples = data.samples;
                 var resultArray = samples.filter(sampleObj => sampleObj.id == idx);
                 var result = resultArray[0];
