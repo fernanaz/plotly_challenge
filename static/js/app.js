@@ -93,4 +93,6 @@ Plotly.newPlot("bubble", bubble, layout2)
 
 console.log(wfreq);
 
-
+        })}
+        init();
+        
